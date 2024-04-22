@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/danrleidalfre.png',
     alt: 'Danrlei Dal Fré',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
